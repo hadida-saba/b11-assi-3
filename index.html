@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03</title>
+    
+    <!--cdn + fonts-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+    <!--tailwind + daisyUI links-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'yollowish': '#FFDC26',
+              },
+                fontFamily: {
+                  'adlam':['"ADLaM Display"', 'system-ui'],
+                  sora:['"Sora"','sans-serif'],
+             } 
+           }
+          }
+        }
+      </script>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
+</head>
+<body class="font-adlam"> 
+       <!--navbar-->
+    <header class="h-96">
+      <div class="navbar border-y-2 border-black sm:border-none bg-[#FFF9F4] px-12 font-sora">
+        <div class="navbar-start">
+          <img src="c1-assets/logo-header.png" alt="cat's paw" class="h-8">
+          <a class="btn btn-ghost text-lg hidden lg:flex">Browse <span class="text-yellow-200">4</span>Pets</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Find a Pet</a></li>
+            <li><a>Breeds</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+              <li><a>Find a Pet</a></li>
+              <li><a>Breeds</a></li>
+              <li><a>Contact US</a></li>
+              <li>
+                <a>More</a>
+                <ul class="p-2">
+                  <li><a><i class="fa-regular fa-bell"></i></a></li>
+                  <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                </ul>
+              </li>
+              <li><a><button>Login</button></a></li>
+              <li><a><button>Resister</button></a></li>
+            </ul>
+          </div>
+          <div class="hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a><i class="fa-regular fa-bell"></i></a></li>
+            <li><a><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <div class="flex">
+            <button class="bg-white px-2 border-2 rounded mr-3 border-yellow-200">Login</button>
+            <button class="bg-yollowish px-2 border-2 rounded mr-3 border-yollowish">Resister</button>
+            </div>
+          </ul>
+          </div>
+        </div>
+      </div>
+             <!--lower header-->
+      <div>
+        <div class="mt-6 sm:mt-16 px-5 sm:ml-28">
+        <p class="text-4xl sm:text-5xl my-3">Pamper Your Pet, <br>Because They Deserve <br>the Best</p>
+        <p class="text-gray-400 my-3 font-extralight font-sora text-sm">Discover a world of treats, toys, and essentials handpicked for <br>your furry friends. Shop now and make tails wag with joy!</p>
+        <button class="bg-yollowish px-2 border-2 rounded mr-3 font-mono font-sora sm:text-xs border-yollowish">Find a Pet</button>
+        </div>
+        <img class="absolute top-96 right-10 sm:right-20 sm:top-32 " src="c1-assets/cat-big.png" alt="cat's picture" width="78%">
+      </div>
+    </header>
+</body>
+</html>
