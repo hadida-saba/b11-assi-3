@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 03</title>
     
-    <!--cdn + fonts-->
+    <!--cdn + fonts + logos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,11 +91,11 @@
         <p class="text-gray-400 my-3 font-extralight font-sora text-sm">Discover a world of treats, toys, and essentials handpicked for <br>your furry friends. Shop now and make tails wag with joy!</p>
         <button class="bg-yollowish px-2 border-2 rounded mr-3 font-mono font-sora sm:text-xs border-yollowish">Find a Pet</button>
         </div>
-        <img class="absolute top-96 right-10 sm:right-20 sm:top-32 " src="c1-assets/cat-big.png" alt="cat's picture" width="78%">
+        <img class="absolute -mt-12 sm:-mt-8 ml-10 sm:ml-20 sm:right-20 sm:top-32 " src="c1-assets/cat-big.png" alt="cat's picture" width="78%">
       </div>
     </header>
 
-    <main class="mt-36 sm:mt-72">
+    <main class="mt-28 sm:mt-0 sm:mt-72">
       <!-- upper body-->
       <section>
         <p class="px-5 text-xl sm:ml-28 sm:text-2xl">Browse By Categories</p>
@@ -145,9 +145,9 @@
         </section>
       </section>
       <!--middle body-->
-      <section>
-        <p class="px-5 text-xl mt-9 sm:ml-28 sm:text-2xl">Trending Pet Products</p>
-        <section>
+      <section class="bg-[#FFFCF4] pb-4 sm:pb-16 mb-0">
+        <p class="px-5 text-xl mt-16 pt-8 sm:ml-28 sm:text-2xl">Trending Pet Products</p>
+        <section class="sm:flex">
           <!--single-->
             <div class="bg-[#F9DF8A] rounded mx-2 sm:w-96 h-80 pt-6 sm:pt-8 mt-4 text-center ml-2.5 sm:ml-32 mb-2">
               <div class="mb-1 pl-6 sm:pl-8  text-start">
@@ -158,13 +158,156 @@
             <img class="absolute ml-28 sm:ml-44 -mt-28 sm:-mt-28" src="c1-assets/cute-pet-small.png" alt="dog picture" width="197">
             </div>
           <!--grids-->
-          <div>
-            <div></div>
+          <div class="grid grid-cols-2 gap-1.5 mx-6 sm:grid-cols-3 py-10">
+            <div class="flex shadow bg-white w-32 h-16 sm:w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/dog-cartoon.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="flex shadow bg-white w-32 h-16 sm:w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/fish-cartoon.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="flex h-16 shadow bg-white w-32 sm:w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/bird-cartoon.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="flex shadow bg-white w-32 sm:w-40 h-16">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/mouse-cartoon.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="flex shadow bg-white w-32 h-16 sm:w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/rabbit-cartoon.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="flex shadow bg-white w-32 h-16 sm:w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/pet-couch.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="flex shadow bg-white w-32 h-16 sm:w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/fish-cartoon.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="flex shadow bg-white w-32 h-16 sm:w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/bird-cartoon.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
+            <div class="hidden sm:flex bg-white shadow h-16 w-40">
+              <img class="bg-[#FFFCF4] p-2 mt-3.5 ml-4 mr-2 w-10 h-10" src="c1-assets/pet-couch.png" alt="">
+              <div class="mt-1.5">
+                <p class="font-sora text-xs"><i class="fa-solid fa-star" style="color: #FFD43B;"></i> 4.5</p>
+                <p class="font-sora">Pet bet</p>
+                <p class="font-sora text-xs">39.99</p>
+              </div>
+            </div>
           </div>
         </section>
       </section>
       <!--lower body-->
-      <section></section>
+      <section>
+        <p class="px-5 text-xl mt-3 pt-8 sm:ml-28 sm:text-2xl">Everyday Low Price</p>
+        <section class="grid sm:grid-cols-2 sm:gap-5 gap-0">
+          <!--upper-->
+          
+            <div style="background: linear-gradient(to right, #F8CCFB,#ACD2FD);" class=" rounded mx-2 sm:w-full h-80 sm:h-96 pt-6 sm:pt-8 mt-8 sm:mt-4 text-center ml-2.5 sm:ml-32 mb-2">
+
+              <div class="mb-1 pl-6 sm:pl-24 sm:pt-20  text-start pt-2">
+                <p class="font-sora hidden sm:flex">Under Price</p>
+              <p class="text-2xl mb-2">Pet Grooming Mitt</p>
+              <p class="text-white hidden sm:flex">(Easy Hair Removal)</p>
+              <p class="text-4xl mb-2 text-white sm:text-black">$7.99</p>
+            </div>
+            <img class="absolute ml-24 sm:w-80 sm:ml-72 -mt-12 sm:-mt-64" src="c1-assets/cute-dog-mid.png" alt="dog picture" width="200">
+            </div>
+          
+          <!--lower-->
+          
+            <div style="background: linear-gradient(to right, #fcfaf9,#F9DF8A);" class=" rounded mx-2 sm:w-96 h-80 sm:h-96 pt-6 sm:pt-8 mt-4 text-center ml-2.5 sm:ml-32 mb-2">
+              <div class="mb-1 pl-6 w-40 sm:pl-8  text-start mt-2">
+              <p class="text-2xl mb-2">T-shirt For Dogs</p>
+              <p class="text-4xl mb-2 text-yellow-500">$7.99</p>
+            </div>
+            <img class="absolute ml-20 sm:ml-32 -mt-20 sm:-mt-28 sm:w-65" src="c1-assets/cute-pet-mid.png" alt="dog picture" width="200">
+            </div>
+          
+        </section>
+      </section>
     </main>
+    <footer>
+      <!--upper-->
+      <section>
+        <div class="bg-[#FFF9F4] rounded mx-2 sm: sm:w-2/3 h-fit sm:h-96 mt-8 sm:mt-4 text-center sm:mx-auto mb-2 sm:flex ">
+           
+          <img class="mx-auto sm:ml-12 sm:mr-16 pt-8" src="c1-assets/cute-pet-mid.png" alt="dog picture" width="220">
+
+          <div class="mt-10 sm:mt-28 sm:text-left">
+          <p class="text-2xl mb-2"> Get Pawsome News!</p>
+          <p class="font-extralight mx-2 font-sora">Exclusive training tips, ticks, product deals and more.</p>
+          <div class="sm:flex sm:flex-col">
+          <label class="input validator font-sora w-56 sm:w-96 mt-4 mb-4 bg-white">   
+            <input type="email" placeholder="Enter E-mail" required />
+          </label>
+          <button class="btn btn-primary w-30 bg-yellow-400 mb-6">Subscribe</button>
+          </div>
+        </div>
+      </section>
+      <!--lower-->
+      <section class="w-full absolute pl-5 pb-8 -z-10  -mt-32 bg-[#fee670] pt-52 sm:grid sm:grid-cols-3">
+      <div class="sm:pl-40 sm:pr-5">
+        <div class="font-sora flex mb-4">
+          <img src="c1-assets/logo-footer.png" alt="" width="30">
+         <p class="mt-2 ml-2">Browse<span class="text-yellow-400">4</span>Pets</p>
+        </div>
+        <p class="font-sora text-sm">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+      </div>
+      <div class="font-sora mt-5 sm:mt-0 sm:ml-44">
+        <p class="sm:mb-2.5">Find a pet</p>
+        <p class="sm:mb-2.5">Breeds</p>
+        <p class="sm:mb-2.5">Contact US</p>
+      </div>
+      <div class="sm:ml-24">
+        <p class="font-sora text-xs mt-5 sm:mt-16">
+          Follow Us
+        </p>
+        <div>
+        <i class="fa-brands fa-facebook  mr-2" style="color: #000000;"></i>
+        <i class="fa-brands fa-instagram mr-2" style="color: #000000;"></i>
+        <i class="fa-brands fa-invision  mr-2" style="color: #000000;"></i>
+        <i class="fa-brands fa-youtube" style="color: #000000;"></i>
+      </div>
+      </div>
+      </section>
+    </footer>
 </body>
 </html>
